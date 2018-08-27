@@ -25,7 +25,6 @@
      * over the data retrieved by our ajax call, then appends that html to the page.]
      */
     function appendHTML(data) {
-      console.log(data);
       var html = ``;
       html += `
           <div class="container">
@@ -38,10 +37,10 @@
           <li class="grid-25">
            <div class="product-wrapper grid-100 hover-shadow">
             <p class="product-qty" title="${data[i].qty}" data-quantity="${data[i].qty}">
-            qty: ${data[i].qty}
+              qty: ${data[i].qty}
             </p>
             <p class="product-item" data-item="${data[i].item}" title="${data[i].item}">
-            ${data[i].item}
+              ${data[i].item}
             </p>
             <hr>
             <p class="product-brand" title="${data[i].brand} ${data[i].type}" data-brand="${data[i].brand}" data-type="${data[i].type}">
