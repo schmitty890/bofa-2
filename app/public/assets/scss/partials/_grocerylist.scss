@@ -1,73 +1,66 @@
+// import scss files needed
+
 @import "partials/_variables";
 
 #grocery-list-section {
   padding-top: 20px;
-  color: $primary-text-color;
+  color: #2C3A47;
   font-family: Arial;
-}
-
-#grocery-list-section h1 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-#grocery-list-section li {
-  list-style: none;
-  margin-bottom: 20px;
-}
-
-#grocery-list-section .product-wrapper {
-  border-right: 5px solid $primary-accent-color;
-  border-bottom: 5px solid $primary-accent-color;
-  padding: 20px;
-  background-color: $primary-background-color;
-  height: 200px;
-  margin-bottom: 10px;
-}
-
-#grocery-list-section .product-qty {
-  float: right;
-  color: $primary-accent-color;
-  font-weight: bold;
-  text-transform: uppercase;
-  top: -10px;
-  position: relative;
-}
-
-#grocery-list-section .product-item {
-  font-size: 36px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: -10px;
-}
-
-#grocery-list-section .product-brand {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-#grocery-list-section .product-category {
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: $primary-accent-color;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-}
-
-#grocery-list-section hr {
-  background-color: gray;
-  border: none;
-  margin-top: 5px;
-  height: 2px;
-  margin-bottom: 5px;
-}
-
-#grocery-list-section p {
-  font-size: 16px;
-  line-height: 150%;
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  .product-wrapper {
+    border-right: 5px solid #E17055;
+    border-bottom: 5px solid #E17055;
+    padding: 20px;
+    background-color: #FFF4D5;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .product-qty {
+    float: right;
+    color: #E17055;
+    font-weight: bold;
+    text-transform: uppercase;
+    top: -10px;
+    position: relative;
+  }
+  .product-item {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+  .product-brand {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .product-category {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E17055;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  hr {
+    background-color: gray;
+    border: none;
+    margin-top: 5px;
+    height: 2px;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 150%;
+  }
 }
 
 #grocery-list-section .hover-shadow {
