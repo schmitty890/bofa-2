@@ -2,7 +2,7 @@
 
 Coding assessment for Bank of America
 
-- Visit [Here](https://bankofamerica-2.herokuapp.com/ target="_blank") for a demo deployed to heroku.
+- Visit [Here](https://bankofamerica-2.herokuapp.com/) for a demo deployed to heroku.
 
 # Getting Started
 
