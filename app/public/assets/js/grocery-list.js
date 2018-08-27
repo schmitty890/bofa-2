@@ -28,7 +28,6 @@
       console.log(data);
       var html = ``;
       html += `
-        <section id="grocery-list-section" aria-label="grocery-list-section">
           <div class="container">
             <h1 aria-label="Grocery List">Grocery List</h1>
             <ul class="row">
@@ -58,7 +57,6 @@
       html += `
             </ul>
           </div>
-        </section>
       `;
       $('#grocery-list-section').append(html);
     }
