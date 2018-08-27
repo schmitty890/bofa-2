@@ -31,7 +31,7 @@
             <h1 aria-label="Grocery List">Grocery List</h1>
             <ul class="row">
       `;
-
+      // loop over grocery items and create list item elements
       for(var i = 0; i < data.length; i++) {
         html += `
           <li class="grid-25">

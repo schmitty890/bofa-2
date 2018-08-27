@@ -86,5 +86,3 @@ gulp.task('concatScripts', function() {
     .pipe(maps.write('./'))
     .pipe(gulp.dest('app/public/build/js'))
 });
-
-

@@ -1,4 +1,4 @@
-// Module dependencies.
+// module dependencies.
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, "./app/public")));
 require('./app/routing/apiRoutes.js')(app);
 require('./app/routing/htmlRoutes.js')(app);
 
-// Start Express server.
+// start express server.
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
