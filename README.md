@@ -2,6 +2,8 @@
 
 Coding assessment for Bank of America
 
+- Visit [Here](https://bankofamerica-2.herokuapp.com/) for demo.
+
 # Getting Started
 
 - Fork or clone the GitHub repo to your machine.
@@ -13,7 +15,7 @@ Coding assessment for Bank of America
 - 🎉Happy developing!🎉
 
 # Linting
-run npm run `-s eslint .` this will show if you have any ESLint errors or warnings. It is good practice to keep code consistent amongst developers.
+run `npm run -s eslint .` this will show if you have any ESLint errors or warnings. It is good practice to keep code consistent amongst developers.
 
 <img src="https://thumbs.gfycat.com/FoolishImpracticalAfricanpiedkingfisher-size_restricted.gif" width="600" height="400" />
 
