@@ -32,6 +32,7 @@ run `npm run lint` this will show if you have any ESLint errors or warnings. It 
 - scss
 - JavaScript
 - jQuery
+- axios
 - html5
 - gulp
 - eslint
