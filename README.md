@@ -19,6 +19,8 @@ run `npm run lint` this will show if you have any ESLint errors or warnings. It 
 
 <img src="https://thumbs.gfycat.com/FoolishImpracticalAfricanpiedkingfisher-size_restricted.gif" width="600" height="400" />
 
+<img src="https://thumbs.gfycat.com/FaintImportantKillifish-size_restricted.gif" width="600" height="400" />
+
 # About this project
 
 - This project is a node.js application that uses gulp as a task runner to optimize its code. The gulp tasks concatenate and minify all of the client side javascripts, as well as convert all the scss into css, concatenate and minify all of those scss files into one file, allowing one css and one js file to be served into the application.
