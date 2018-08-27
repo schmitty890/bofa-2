@@ -2,7 +2,7 @@
 
 Coding assessment for Bank of America
 
-- Visit [Here](https://bankofamerica-2.herokuapp.com/) for demo.
+- Visit [Here](https://bankofamerica-2.herokuapp.com/ target="_blank") for a demo deployed to heroku.
 
 # Getting Started
 
@@ -15,7 +15,7 @@ Coding assessment for Bank of America
 - 🎉Happy developing!🎉
 
 # Linting
-run `npm run -s eslint .` this will show if you have any ESLint errors or warnings. It is good practice to keep code consistent amongst developers.
+run `npm run lint` this will show if you have any ESLint errors or warnings. It is good practice to keep code consistent amongst developers.
 
 <img src="https://thumbs.gfycat.com/FoolishImpracticalAfricanpiedkingfisher-size_restricted.gif" width="600" height="400" />
 
@@ -31,11 +31,11 @@ This application utilizes the revealing modular pattern. This javascript pattern
 This pattern allows the syntax of our scripts to be more consistent. It also makes it more clear at the end of the module which of our functions and variables may be accessed publicly which eases readability.
 
 ```
-var Module = function(){
+var Module = function() {
 
    var team = ['Bob', 'Bill', 'Joe'];
 
-   function logTeam(){
+   function logTeam() {
      return team;
    }
 
