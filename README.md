@@ -27,6 +27,15 @@ run `npm run lint` this will show if you have any ESLint errors or warnings. It 
 
 - In this version, the grocery list data was saved on a free online resource at `https://api.myjson.com/bins/1g3ryg`. This was the endpoint for the client side ajax call to retrieve the data. This is different than the other version, which shows the data saved within the application itself.
 
+# Technology used
+- node.js
+- scss
+- JavaScript
+- jQuery
+- html5
+- gulp
+- eslint
+
 # Client side JavaScript coding style
 This application utilizes the revealing modular pattern. This javascript pattern allows us to define all of our functions and variables in the private scope and return an anonymous object with pointers to the private functionality we wish to reveal as public.
 
