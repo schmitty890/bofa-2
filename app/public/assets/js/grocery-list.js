@@ -69,6 +69,7 @@
     function init() {
       getGroceries();
     }
+
     /**
      * assign init to init, so that it can be called outside of this module as Groceries.init();
      */
@@ -77,8 +78,5 @@
     }
 
   }();
-  // call the initalize function the Groceries module.
-  Groceries.init();
+  Groceries.init(); // call the initalize function the Groceries module.
 })(jQuery); // read in jQuery in case $ is redefined to something else in another scrip within our site.
-
-
